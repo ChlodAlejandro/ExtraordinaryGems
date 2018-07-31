@@ -2,6 +2,7 @@ package chlod.mcforge.extraordinarygems.main;
 
 import org.apache.logging.log4j.Logger;
 
+import chlod.mcforge.extraordinarygems.handlers.RegistryHandler;
 import chlod.mcforge.extraordinarygems.proxy.CommonProxy;
 import chlod.mcforge.extraordinarygems.util.Reference;
 import net.minecraftforge.fml.common.Mod;
@@ -24,7 +25,7 @@ public class ExtraordinaryGems {
 	
 	@EventHandler
 	public void preInitializationEvent(FMLPreInitializationEvent event) {
-		
+		RegistryHandler.otherRegistries();
 	}
 	
 	@EventHandler

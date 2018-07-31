@@ -1,0 +1,24 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+        {
+          "item": "egems:gem_stabilizer"
+        },
+    
+        {
+          "item": "egems:extraordinite_shard"
+        },
+    
+        {
+          "item": "egems:extraordinite_shard"
+        }
+    ],
+
+    "result": 
+    {
+        "item": "egems:extraordinite",
+        "count": 1
+    }
+}

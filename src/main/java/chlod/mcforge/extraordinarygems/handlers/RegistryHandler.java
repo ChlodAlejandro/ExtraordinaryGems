@@ -3,12 +3,14 @@ package chlod.mcforge.extraordinarygems.handlers;
 import chlod.mcforge.extraordinarygems.objects.blocks.EGBlocks;
 import chlod.mcforge.extraordinarygems.objects.items.EGItems;
 import chlod.mcforge.extraordinarygems.util.IHasModel;
+import chlod.mcforge.extraordinarygems.world.gen.EGWorldOres;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @EventBusSubscriber
 public class RegistryHandler {
@@ -35,6 +37,10 @@ public class RegistryHandler {
 				((IHasModel) block).registerModels();
 			}
 		}
+	}
+	
+	public static void otherRegistries() {
+		GameRegistry.registerWorldGenerator(new EGWorldOres(), 0);
 	}
 	
 }

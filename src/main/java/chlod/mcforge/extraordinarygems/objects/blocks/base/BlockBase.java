@@ -17,6 +17,7 @@ public class BlockBase extends Block implements IHasModel{
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
+		this.setHardness(15.0F);
 		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 		
 		EGBlocks.EG_BLOCKS.add(this);

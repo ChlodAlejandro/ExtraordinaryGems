@@ -1,7 +1,9 @@
 // ITEMS
 item.extraordinite.name=Extraordinite
+item.extraordinite_shard.name=Extraordinite Shard
 item.gem_stabilizer.name=Gem Stabilizer
 
 // BLOCKS
 tile.extraordinite_block.name=Extraordinite Block
+tile.extraordinite_ore.name=Extraordinite Ore
 tile.gem_stabilizer_block.name=Gem Stabilizer Block
