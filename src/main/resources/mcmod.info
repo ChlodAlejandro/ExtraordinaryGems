@@ -1,0 +1,11 @@
+[
+{
+  "modid": "egems",
+  "name": "Extraordinary Gems",
+  "description": "Adds valuable and durable gems to the game",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "authorList": ["Chlod"],
+  "credits": "Chlod Alejandro and the MCP and Minecraft Forge teams."
+}
+]
