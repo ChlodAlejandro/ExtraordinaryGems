@@ -2,8 +2,8 @@ package chlod.mcforge.extraordinarygems.main;
 
 import org.apache.logging.log4j.Logger;
 
-import chlod.mcforge.extraordinarygems.lib.Reference;
 import chlod.mcforge.extraordinarygems.proxy.CommonProxy;
+import chlod.mcforge.extraordinarygems.util.Reference;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;

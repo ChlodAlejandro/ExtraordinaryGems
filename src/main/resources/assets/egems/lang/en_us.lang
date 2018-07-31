@@ -1,0 +1,7 @@
+// ITEMS
+item.extraordinite.name=Extraordinite
+item.gem_stabilizer.name=Gem Stabilizer
+
+// BLOCKS
+tile.extraordinite_block.name=Extraordinite Block
+tile.gem_stabilizer_block.name=Gem Stabilizer Block

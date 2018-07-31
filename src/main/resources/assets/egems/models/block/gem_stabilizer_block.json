@@ -1,0 +1,11 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "up": "egems:block/gem_stabilizer_block_top",
+       "down": "egems:block/gem_stabilizer_block_bottom",
+       "north": "egems:block/gem_stabilizer_block",
+       "south": "egems:block/gem_stabilizer_block",
+       "east": "egems:block/gem_stabilizer_block",
+       "west": "egems:block/gem_stabilizer_block"
+   }
+}

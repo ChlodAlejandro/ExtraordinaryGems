@@ -1,4 +1,4 @@
-package chlod.mcforge.extraordinarygems.lib;
+package chlod.mcforge.extraordinarygems.util;
 
 public class Reference {
 

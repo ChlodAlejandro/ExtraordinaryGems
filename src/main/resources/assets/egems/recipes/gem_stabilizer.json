@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "IOI",
+        "DGD",
+        "IBI"
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        "O":
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        "B":
+        {
+            "item": "minecraft:obsidian"
+        },
+        "D":
+        {
+            "item": "minecraft:diamond"
+        },
+        "G":
+        {
+            "item": "minecraft:glass_pane"
+        }
+    },
+    
+    "result":
+    {
+        "item": "egems:gem_stabilizer",
+        "count": 4
+    }
+}
