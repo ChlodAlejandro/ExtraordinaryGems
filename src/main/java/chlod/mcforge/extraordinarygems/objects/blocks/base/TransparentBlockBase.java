@@ -21,7 +21,7 @@ public class TransparentBlockBase extends BlockBase {
 	
 	@SideOnly(Side.CLIENT)
 	public BlockRenderLayer getBlockLayer() {
-		return BlockRenderLayer.CUTOUT;
+		return BlockRenderLayer.TRANSLUCENT;
 	}
 	
 }

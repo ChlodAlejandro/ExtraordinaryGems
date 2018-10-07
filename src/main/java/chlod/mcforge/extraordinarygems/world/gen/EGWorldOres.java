@@ -38,7 +38,10 @@ public class EGWorldOres implements IWorldGenerator{
 			IChunkProvider chunkProvider) {
 		switch (world.provider.getDimension()) {
 			case 0:
-				this.runGenerator(EGORE_EXTRAORDINITE_ORE, world, random, chunkX, chunkZ, 10, 5, 16);
+				int chance = 8;
+				int minHeight = 3;
+				int maxHeight = 18;
+				this.runGenerator(EGORE_EXTRAORDINITE_ORE, world, random, chunkX, chunkZ, chance, minHeight, maxHeight);
 				break;
 		}
 	}
